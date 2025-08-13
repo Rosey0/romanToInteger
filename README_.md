@@ -4,9 +4,10 @@ Convert a Roman numeral string into its integer value.
 
 ## How it works
 
-1.Use a Map
- Use a `Map` that contains only the basic Roman numeral symbols (I, V, X, L, C, D, M) without explicitly listing exceptions like 4, 9, 40, etc.
-2.Iterate through s
+1.Use a Map   
+ Use a `Map` that contains only the basic Roman numeral symbols (I, V, X, L, C, D, M) without explicitly listing exceptions like 4, 9, 40, etc.    
+ 
+2.Iterate through s     
  Loop through string s character by character. Use `.get(key)` to assign the current value to curr and the next value to next for comparison and exception handling.
 
 ## Note
